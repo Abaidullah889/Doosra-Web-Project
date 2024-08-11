@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/form.css" type="text/css">
+
+    <script src="https://kit.fontawesome.com/c5f8cd76f6.js" crossorigin="anonymous"></script>
+    <script src="Form.js" defer></script>
+
+    <title>Froms</title>
+</head>
+<body class = "background_col">
+
+    <nav class ="navigationBar">
+        <ul>
+          <li class = "logo"><a href="index.html"><img src="media/LOGO.png" alt="logo-img" class="logo-img"></a></li>
+          <li class = "toggle"><i class="fas fa-bars"></i></li>
+          <li class="options"><a href="index.html"><span >Home</span></a></li>
+          <li class="options"><a href="News.html">News</a></li>
+          <li class="options"><a href="matches.html">Matches</a></li>
+          <li class="options"><a href="ranking.html">Rankings</a></li>
+          <li class="option-form"><a href="Forms.html"><span class="Forms">Forms</span></a></li>
+        </ul>
+    </nav>
+
+    <div class = "Feedback">
+        <span>FeedBack</span>
+    </div>
+
+    <div class="lines">
+      <h2 class="head1">Get in Touch with Doosra!</h2>
+
+      <h4 class="head2">We'd love to hear from you.</h4>
+
+    </div>
+    
+
+    <div class="wrapper">
+
+      
+      <form action="mailto:ubaidtech889@gmail.com" method="post" enctype="text/plain">
+
+        <div class="name-box">
+          <h2>Name</h2>
+          <label><input type="text" placeholder="Goodname" id="name" name="Goodname" required></label> 
+        </div>
+      
+        <div class="email-box">
+          <h2>Email Address</h2>
+        <label><input type="email" placeholder="Email" id="email" name="email" required></label>
+        </div>
+      
+        <div class="subject">
+          <h2>Subject</h2>
+          <div class="radio">
+            <ul class="radioList">
+              <li><label><input type="radio" name="subject" value="General Inquiry"><span class="text">General Inquiry</span></label></li>
+              <li><label><input type="radio" name="subject" value="Bug Report"><span class="text">Bug Report</span></label></li>
+              <li><label><input type="radio" name="subject" value="Suggestion"><span class="text">Suggestion</span></label></li>
+              <li><label><input type="radio" name="subject" value="Other"><span class="text">Other</span></label></li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="Message">
+          <h2>Message</h2>
+        <label><textarea class="message-box" id="message" name="text"></textarea></label>
+        </div>
+      
+        <div class="subscribe">
+          <label><input type="checkbox" name="subscribe" id="subscribe">Subscribe to our newsletter</label>
+        </div>
+      
+        <div class="button">
+          <div class="button animated">
+            <button class="button-itself" type="submit">
+              Submit
+            </button>
+          </div>
+      
+          <div class="button animated">
+            <button class="button-itself" type="reset">
+              Reset
+            </button>
+          </div>
+        </div>
+      
+      </form>
+      
+
+    </div>
+    
+
+
+
+
+
+    <footer>
+
+        <div class = "footerContainer">
+          <div class = "Icons">
+
+            <a href = "https://www.facebook.com/"><i class = "fa-brands fa-facebook"></i></a>
+            <a href = "https://www.instagram.com/"><i class = "fa-brands fa-instagram"></i></a>
+            <a href = "https://www.discord.com/"><i class = "fa-brands fa-discord"></i></a>
+            <a href = "https://www.twitter.com/"><i class = "fa-brands fa-twitter"></i></a>
+            <a href = "https://www.youtube.com/"><i class = "fa-brands fa-youtube"></i></a>
+          </div>
+  
+          <div class ="footerNav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="News.html">News</a></li>
+              <li><a href="matches.html">Matches</a></li>
+              <li><a href="ranking.html">Rankings</a></li>
+              <li><a href="Forms.html">Forms</a></li>
+            </ul>
+          </div>
+  
+        </div>
+    </footer>
+  
+    <div class="footerBottom">
+        <p>Copyright &copy;2024; Designed by <span style="opacity: 0.7; text-transform: uppercase;letter-spacing: 1px;font-weight: 400; margin: 0px 5px; ">Abaid</span></p>
+    </div>
+
+
+</body>
+</html>

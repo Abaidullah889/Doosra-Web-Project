@@ -1,0 +1,911 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigationBar ul{
+  display: flex;
+  border-radius: 10px;
+  margin: 1%;
+  box-shadow: 5px 5px 5px rgb(140, 139, 139) ;
+  align-items: center;
+  background-color: #e8e4e4;
+  font-family: Arial, sans-serif;
+  color: #666;
+}
+
+.navigationBar li{
+  list-style-type: none;
+  padding: 1rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,p,input,select,textarea,button{
+  font-family: 'Poppins',sans-serif;
+}
+
+
+
+.Home{
+
+  color:rgb(238, 234, 235);
+}
+
+
+
+.navigationBar a{
+
+  text-decoration: none;
+  color: #666;
+}
+
+
+.logo{
+  flex: 1;
+  user-select: none;
+}
+
+.logo-img{
+   max-width: 100px;
+}
+
+.logo-img:hover{
+
+  opacity: 0.8;
+  transform: scale(1.2);
+}
+
+.toggle{
+  display: none;
+}
+
+.options{
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.options:hover{
+
+  background-color: #40022f;
+  border-radius: 10px;
+}
+.options:hover a{
+  color:rgb(238, 234, 235);
+  text-decoration: none;
+}
+
+.option-home{
+  
+  margin-top: 10px;
+  margin-right: 30px;
+  background-color: #40022f;
+  
+  border-radius: 10px;
+}
+
+
+.option-home:hover a{
+  text-decoration: none;
+}
+
+
+.quotation{
+  display: flex; 
+  background-color: antiquewhite; 
+  border-radius: 10px; 
+  padding: 15px;
+}
+
+.imageImran
+{
+  display: flex; 
+  justify-content: flex-start;
+  width: 20%;
+
+}
+
+.heading1
+{
+  display: flex; 
+  justify-content: flex-start
+
+}
+
+.heading2
+{
+  display: flex; 
+  justify-content: flex-start
+  
+}
+
+.heading3
+{
+  display: flex; 
+  justify-content: center;
+}
+
+.Abaid
+{
+  opacity: 0.7; 
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400; 
+  margin: 0px 5px;
+}
+
+
+
+
+
+@media(min-width: 1550px)
+{
+
+  .heading1{
+
+    font-size: 2rem;
+  }
+
+  .quotation{
+    font-size: 2rem;
+  }
+
+  .bode
+  {
+    font-size: 1.8rem;
+  }
+
+  .heading1{
+    margin-left:10%;
+  }
+  .heading2{
+    margin-left:10%;
+  }
+  .heading3{
+    margin-top: 5%;
+  }
+
+  footer{
+
+    background-color: #e8e4e4;
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .footerContainer
+  {
+    margin-top: 4%;
+    padding: 70px 30px 20px;
+  
+  }
+  
+  .Icons
+  {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .Icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(164, 209, 60);
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+  .Icons a i{
+  
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+  }
+  .Icons a:hover{
+  
+    background-color:#40022f;
+    transition: 0.5s;
+  }
+  
+  .footerNav ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    list-style-type: none;
+  }
+  
+  .footerNav ul li a{
+  
+    color:#666;
+    margin:20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity:0.8;
+    transition: 0.5s;
+  }
+  
+  .footerNav ul li a:hover{
+    opacity: 1.2;
+    color:#40022f;
+  
+  }
+  
+  .footerBottom{
+    background-color: #999898;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footerBottom p{
+    color: white;
+  }
+
+
+
+  .about-cricket-section {
+
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 30px;
+    background-color:rgb(164, 209, 60);
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .imageSlider
+  {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .text-part{
+    display: flex;
+    justify-content: flex-start;
+    width:45%
+  }
+
+  .about-cricket-text
+  {
+    padding: 10%;
+    background-color: #e8e4e4;
+    border-radius: 20px;
+    
+  }
+
+
+  p{
+    font-size: medium;
+  }
+
+
+  .quote1{
+
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 20%;
+    font-weight: bolder;
+  }
+
+  .where-it-begins{
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+
+
+  .imageSlider2{
+
+    
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+
+  .text-part2{
+    display: flex;
+    justify-content: flex-start;
+    width:45%
+  }
+
+
+  .began-cricket-text{
+
+    padding: 10%;
+    margin-top: 7%;
+    margin-bottom: 8%;
+    display: flex;
+    align-items: center;
+
+    background-color: #e8e4e4;
+    border-radius: 20px;
+
+  }
+  .theDon{
+
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .imageSlider3{
+
+    
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .text-part3{
+    display: flex;
+    justify-content: flex-start;
+    width:45%
+  }
+
+  .Don-cricket-text
+  {
+    padding: 10%;
+    margin-top: 7%;
+    margin-bottom: 8%;
+    display: flex;
+    align-items: center;
+
+    background-color: #e8e4e4;
+    border-radius: 20px;
+
+  }
+
+  .video
+  {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 2%;
+  }
+
+  .video-text
+  {
+    
+    display: flex;
+    align-items: center;
+    margin-left:10%;
+    margin-right:10%;
+    padding: 4%;
+    background-color: #e8e4e4;
+    border-radius: 10px;
+    
+  }
+
+    .finalQuote
+  {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: aliceblue;
+  }
+
+}
+
+
+@media(min-width: 1025px) and (max-width:1550px)
+{
+
+  .quotation{
+    font-size: 1.8rem;
+  }
+
+  .heading1{
+
+    font-size: 2rem;
+  }
+
+  footer{
+
+    background-color: #e8e4e4;
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .footerContainer
+  {
+    margin-top: 4%;
+    padding: 70px 30px 20px;
+  
+  }
+  
+  .Icons
+  {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .Icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(164, 209, 60);
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+  .Icons a i{
+  
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+  }
+  .Icons a:hover{
+  
+    background-color:#40022f;
+    transition: 0.5s;
+  }
+  
+  .footerNav ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    list-style-type: none;
+  }
+  
+  .footerNav ul li a{
+  
+    color:#666;
+    margin:20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity:0.8;
+    transition: 0.5s;
+  }
+  
+  .footerNav ul li a:hover{
+    opacity: 1.2;
+    color:#40022f;
+  
+  }
+  
+  .footerBottom{
+    background-color: #999898;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footerBottom p{
+    color: white;
+  }
+
+  .heading1{
+    margin-left:5%;
+  }
+  .heading2{
+    margin-left:5%;
+  }
+  .heading3{
+    margin-top: 5%;
+  }
+
+  .about-cricket-section {
+
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+    background-color:rgb(164, 209, 60);
+    display: flex;
+    justify-content: center;
+    width: 95%;
+  }
+
+  .imageSlider
+  {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .text-part{
+    display: flex;
+    justify-content: flex-start;
+    width:45%
+  }
+
+  .about-cricket-text
+  {
+    padding: 10%;
+    background-color: #e8e4e4;
+    border-radius: 15px;
+    
+  }
+
+  .quote1{
+
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    margin-left: 12%;
+  }
+
+
+  p{
+    font-size: small;
+  }
+
+
+  .quote-font{
+    font-size: 1.8rem;
+    font-weight: bolder;
+  }
+
+  .where-it-begins{
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+  }
+
+
+  .imageSlider2{
+
+    
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+
+  .text-part2{
+    display: flex;
+    justify-content: flex-start;
+    width:45%
+  }
+
+
+  .began-cricket-text{
+
+    padding: 10%;
+    margin-top: 7%;
+    margin-bottom: 8%;
+    display: flex;
+    align-items: center;
+
+    background-color: #e8e4e4;
+    border-radius: 15px;
+
+  }
+
+  .theDon{
+
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+  }
+
+  .imageSlider3{
+
+    
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .text-part3{
+    display: flex;
+    justify-content: flex-start;
+    width:45%
+  }
+
+  .Don-cricket-text
+  {
+    padding: 10%;
+    margin-top: 7%;
+    margin-bottom: 8%;
+    display: flex;
+    align-items: center;
+
+    background-color: #e8e4e4;
+    border-radius: 15px;
+
+  }
+
+
+  .video
+  {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 2%;
+  }
+
+  .video-text
+  {
+    
+    display: flex;
+    align-items: center;
+    margin-left:10%;
+    margin-right:10%;
+    padding: 4%;
+    background-color: #e8e4e4;
+    border-radius: 10px;
+    
+  }
+
+  .finalQuote
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+}
+
+
+@media(min-width:0px) and (max-width:1024px)
+{
+
+  .navigationBar ul{
+
+    flex-wrap: wrap;
+  }
+  .toggle{
+    display: block;
+  }
+  
+  .options{
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+  .option-home{
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .active
+  {
+    display: block;
+  }
+  
+  .imageSlider
+  {
+    margin-top: 3%;
+    width: 100%;
+    position:relative;
+    
+  }
+  
+  .about-cricket-text{
+
+    margin-top: 2%;
+    padding: 4%;
+    background-color: #e8e4e4;
+    border-radius: 10px;
+  }
+
+  
+  p{
+    font-size: medium;
+  }
+
+
+  .quote1{
+
+    margin: 7%;
+    display: flex;
+    align-items: center;
+    margin-left: 12%;
+  }
+
+  .quote-font{
+
+    font-size: 120%;
+    
+  }
+
+  .imran-img{
+    width:20%;
+  }
+
+  .imageSlider2
+  {
+    margin-top: 3%;
+    width: 100%;
+    position:relative;
+  }
+
+  .began-cricket-text{
+
+    margin-top: 2%;
+    margin-bottom: 4%;
+    display: flex;
+    align-items: center;
+    padding: 4%;
+    background-color: #e8e4e4;
+    border-radius: 10px;
+
+  }
+
+  .imageSlider3{
+
+    
+    margin-top: 4.5%;
+    width: 100%;
+    position:relative;
+  }
+
+
+  .Don-cricket-text
+  {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    display: flex;
+    align-items: center;
+    padding: 4%;
+    background-color: #e8e4e4;
+    border-radius: 10px;
+
+  }
+
+  .heading1
+  {
+    font-size: large;
+  }
+  .heading2{
+    font-size: large;
+  }
+  .heading3{
+    font-size: large;
+    margin-top: 5%;
+  }
+
+
+  .video
+  {
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 2%;
+  }
+
+  .video-text
+  {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    display: flex;
+    align-items: center;
+    padding: 4%;
+    background-color: #e8e4e4;
+    border-radius: 10px;
+    
+  }
+
+    .finalQuote
+  {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: aliceblue;
+  }
+
+
+  footer{
+
+    background-color: #e8e4e4;
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .footerContainer
+  {
+    margin-top: 4%;
+    padding: 70px 30px 20px;
+  
+  }
+  
+  .Icons
+  {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .Icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(164, 209, 60);
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+  .Icons a i{
+  
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+  }
+  .Icons a:hover{
+  
+    background-color:#40022f;
+    transition: 0.5s;
+  }
+
+
+  .footerNav ul li a{
+  
+    color:#666;
+    margin:20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity:0.8;
+    transition: 0.5s;
+  }
+  
+  .footerNav ul li a:hover{
+    opacity: 1.2;
+    color:#40022f;
+  
+  }
+  
+  .footerBottom{
+    background-color: #999898;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footerBottom p{
+    color: white;
+  }
+
+  .footerNav ul{
+
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0px;
+  }
+
+  .footerNav ul li{
+    
+    text-align: center;
+  }
+
+
+
+}
+
+
+
+
+
+
